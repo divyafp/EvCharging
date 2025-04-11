@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 3002;
 
 app.use(express.json());
-app.use(cors({origin : 'https://admin.charznet.in'}));
+app.use(cors({origin : 'https://admin.charznet.com'}));
 
 // app.use(cors({
 //   origin: allowedOrigins,
